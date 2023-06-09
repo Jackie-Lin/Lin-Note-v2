@@ -4,7 +4,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "你好， VuePress ！",
   description: "这是我的第一个 VuePress 站点",
-  base: "/",
+  base: "/Lin-Note-v2/",
   theme: defaultTheme({
     // 默认主题配置
     navbar: [
