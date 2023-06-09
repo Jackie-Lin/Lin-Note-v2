@@ -4,7 +4,7 @@ home: true
 heroText: Hero 标题
 sidebar: auto
 tagline: Hero 副标题
-actionText: 快速上手 →
+actionText: 如何快速上手 →
 actionLink: /zh/guide/
 features:
   - title: 简洁至上
