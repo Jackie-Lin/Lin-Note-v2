@@ -2,20 +2,23 @@ import { defineUserConfig, defaultTheme } from "vuepress";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "你好， VuePress ！",
-  description: "这是我的第一个 VuePress 站点",
+  title: "Hello Lin-Note-v2",
+  description: "艮山的个人博客 v2",
   base: "/Lin-Note-v2/",
   theme: defaultTheme({
     // 默认主题配置
     navbar: [
       {
-        text: "首页",
+        text: "主页",
         link: "/",
       },
       {
         text: "基础入门",
         children: [
-          { text: "TypeScript", link: "/基础入门/TypeScript 入门.md" },
+          { text: "TypeScript 入门", link: "/基础入门/TypeScript 入门.md" },
+          { text: "sass 入门", link: "/基础入门/sass 入门.md" },
+          { text: "React 入门", link: "/基础入门/React 入门.md" },
+          { text: "Nestjs 入门", link: "/基础入门/Nestjs 入门.md" },
         ],
       },
       {

@@ -1,5 +1,5 @@
 <template><div><h2 id="使用流程" tabindex="-1"><a class="header-anchor" href="#使用流程" aria-hidden="true">#</a> 使用流程</h2>
-<img src="assets/image-20230304135833899.png" alt="image-20230304135833899" style="zoom:80%;" />
+<p><img src="@source/基础入门/assets/image-20230304135833899.png" alt="image-20230304135833899"></p>
 <h2 id="演变历史" tabindex="-1"><a class="header-anchor" href="#演变历史" aria-hidden="true">#</a> 演变历史</h2>
 <p><strong>.Sass</strong></p>
 <p>以前的 <code v-pre>sass</code> 的文件名后缀是 <code v-pre>.sass</code>, 下面为其语法</p>
@@ -30,10 +30,10 @@
 </ol>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>// 直接将输出结果输出在终端
 sass test.scss
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><img src="assets/image-20230304142942981.png" alt="image-20230304142942981" style="zoom: 70%;" />	
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/基础入门/assets/image-20230304142942981.png" alt="image-20230304142942981"></p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code>// 将结果以文件输出, 后面再加 .css 的文件名即可
 sass test.scss test.css
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><img src="assets/image-20230304143107773.png" alt="image-20230304143107773" style="zoom: 80%;" />	
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/基础入门/assets/image-20230304143107773.png" alt="image-20230304143107773"></p>
 <h2 id="基本使用" tabindex="-1"><a class="header-anchor" href="#基本使用" aria-hidden="true">#</a> 基本使用</h2>
 <h4 id="变量的定义与使用" tabindex="-1"><a class="header-anchor" href="#变量的定义与使用" aria-hidden="true">#</a> 变量的定义与使用</h4>
 <p><code v-pre>sass</code> 变量定义, 使用 <code v-pre>$</code> 符号</p>

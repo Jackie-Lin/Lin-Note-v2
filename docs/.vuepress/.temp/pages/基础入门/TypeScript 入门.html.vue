@@ -6,7 +6,7 @@
 <li>兼容性强, 兼容 js 的所有语法, 还包括更新版本的 ES6、ES7、ES8</li>
 </ul>
 <h2 id="_2-typescript-工作流" tabindex="-1"><a class="header-anchor" href="#_2-typescript-工作流" aria-hidden="true">#</a> 2 TypeScript 工作流</h2>
-<p><img src="@source/../../../project/Lin-Note/public/image-20230211165723971-1676105848141-6.png" alt="image-20230211165723971"></p>
+<p><img src="@source/基础入门/assets/image-20230211165723971-1676105848141-6.b29ace45.png" alt="image-20230211165723971"></p>
 <p>扩展: ES6 编译器 Babel ( ES6 转 ES5 )</p>
 <h2 id="_3-typescript-执行、编译" tabindex="-1"><a class="header-anchor" href="#_3-typescript-执行、编译" aria-hidden="true">#</a> 3. TypeScript 执行、编译</h2>
 <p>插件</p>
@@ -31,7 +31,7 @@ ts-node index.ts // 执行 index.ts 文件
 <h4 id="变量声明" tabindex="-1"><a class="header-anchor" href="#变量声明" aria-hidden="true">#</a> 变量声明</h4>
 <p>TypeScript 应尽量避免使用 <code v-pre>var</code>, 而应该去使用 <code v-pre>const</code>、<code v-pre>let</code></p>
 <h4 id="类型" tabindex="-1"><a class="header-anchor" href="#类型" aria-hidden="true">#</a> 类型</h4>
-<p><img src="@source/../../../project/Lin-Note/public/image-20230211174806549-1676108891032-9.png" alt="image-20230211174806549"></p>
+<p><img src="@source/基础入门/assets/image-20230211174806549-1676108891032-9.b696ca22.png" alt="image-20230211174806549"></p>
 <h4 id="高级类型" tabindex="-1"><a class="header-anchor" href="#高级类型" aria-hidden="true">#</a> 高级类型</h4>
 <ul>
 <li>union 组合类型</li>
@@ -168,7 +168,7 @@ ts-node index.ts // 执行 index.ts 文件
     blue <span class="token operator">=</span> <span class="token number">1</span>
 <span class="token punctuation">}</span>
 <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Color2<span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><img src="@source/../../../project/Lin-Note/public/image-20230211184857316-1676112565228-12.png" alt="image-20230211184857316" style="zoom:120%;" />	
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/基础入门/assets/image-20230211184857316-1676112565228-12.a5f4fa28.png" alt="image-20230211184857316"></p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token comment">// 枚举类型的元素也可以定义为其他类型</span>
 <span class="token keyword">enum</span> Color3 <span class="token punctuation">{</span>
     red <span class="token operator">=</span> <span class="token string">"red"</span><span class="token punctuation">,</span>
@@ -1067,7 +1067,7 @@ ref<span class="token punctuation">.</span>value <span class="token operator">=<
 <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>ref<span class="token punctuation">.</span>value<span class="token punctuation">)</span> <span class="token comment">// 666Linvvv</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_8-类型推导-和-类型别名" tabindex="-1"><a class="header-anchor" href="#_8-类型推导-和-类型别名" aria-hidden="true">#</a> 8. 类型推导 和 类型别名</h2>
 <p><strong>类型推导</strong></p>
-<img src="assets/image-20230327152459089.png" alt="image-20230327152459089" style="zoom: 80%;" />	
+<p><img src="@source/基础入门/assets/image-20230327152459089.png" alt="image-20230327152459089"></p>
 <p>可以看到 ts 天然就推导出了 str 就是 string 类型的了</p>
 <p><strong>类型别名</strong></p>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">type</span> <span class="token class-name">s</span> <span class="token operator">=</span> <span class="token builtin">string</span> <span class="token operator">|</span> <span class="token builtin">number</span> <span class="token comment">// 定义什么类型都可以</span>
@@ -1093,7 +1093,7 @@ ref<span class="token punctuation">.</span>value <span class="token operator">=<
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token comment">// extends 包含的意思</span>
 <span class="token comment">// 左边的值 会作为右边类型的子类型</span>
 <span class="token keyword">type</span> <span class="token class-name">num</span> <span class="token operator">=</span> <span class="token number">1</span> <span class="token keyword">extends</span> <span class="token class-name"><span class="token builtin">never</span></span> <span class="token operator">?</span> <span class="token number">1</span> <span class="token operator">:</span> <span class="token number">0</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><img src="assets/image-20230327154936414.png" alt="image-20230327154936414" style="zoom: 50%;" />	
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="@source/基础入门/assets/image-20230327154936414.png" alt="image-20230327154936414"></p>
 <p>上面的类型包含下面的类型</p>
 <h2 id="_9-索引签名" tabindex="-1"><a class="header-anchor" href="#_9-索引签名" aria-hidden="true">#</a> 9. 索引签名</h2>
 <p>索引签名其实就是获取变量的值</p>
