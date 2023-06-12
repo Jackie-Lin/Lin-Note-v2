@@ -1,11 +1,16 @@
 ---
 home: true
 # heroImage: /hero.png
-heroText: Hero 标题
+heroText: Hello Lin
 sidebar: auto
-tagline: Hero 副标题
-actionText: 如何快速上手啊 →
-actionLink: /zh/guide/
+# tagline: Hero 副标题
+actions:
+  - text: 博客简介
+    link: /guide/
+    type: primary
+  - text: 作者简介
+    link: /guide/
+    type: secondary
 features:
   - title: 简洁至上
     details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
