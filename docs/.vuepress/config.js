@@ -1,19 +1,24 @@
 import { defineUserConfig, defaultTheme } from "vuepress";
+import { searchPlugin } from "@vuepress/plugin-search";
 
 export default defineUserConfig({
-  lang: "zh-CN",
-  title: "Hello Lin-Note-v2",
-  description: "艮山的个人博客 v2",
-  base: "/Lin-Note-v2/",
+  // logo: "/image/logo.svg",
+  lang: "zh-CN", // 语言设置
+  title: "Hello Lin-Note-v2", // 主页标题
+  description: "艮山的个人博客 v2", // 主页描述
+  base: "/Lin-Note-v2/", // 基础路径
+  // 默认主题
   theme: defaultTheme({
-    // 默认主题配置
+    // 导航栏配置
     navbar: [
+      // 主页
       {
         text: "主页",
         link: "/",
       },
+      // 基础/进阶
       {
-        text: "基础/进价",
+        text: "基础/进阶",
         children: [
           {
             text: "基础",
@@ -30,6 +35,7 @@ export default defineUserConfig({
           },
         ],
       },
+      // 优质面试题
       {
         text: "优质面试题",
         children: [
@@ -109,16 +115,54 @@ export default defineUserConfig({
           },
         ],
       },
+      // 工具
+      {
+        text: "工具",
+        children: [
+          {
+            text: "vscode",
+            children: [
+              {
+                text: "vscode 版本管理",
+                link: "/vscode使用心得/vscode 版本管理.md",
+              },
+              {
+                text: "vscode 插件篇",
+                link: "/vscode使用心得/vscode 插件篇.md",
+              },
+              {
+                text: "vscode 常用快捷键",
+                link: "/vscode使用心得/vscode 常用快捷键.md",
+              },
+            ],
+          },
+        ],
+      },
+      // GitHub 博客地址
       {
         text: "GitHub",
-        link: "https://github.com/Jackie-Lin/Lin-UI/tree/master",
+        link: "https://github.com/Jackie-Lin/Lin-Note-v2",
       },
+      // Npm UI 组件库地址
       {
         text: "Npm",
         link: "https://www.npmjs.com/package/lin-ui2",
       },
     ],
   }),
+  // 搜索框配置
+  plugins: [
+    searchPlugin({
+      locales: {
+        "/": {
+          placeholder: "Search",
+        },
+        "/zh/": {
+          placeholder: "搜索",
+        },
+      },
+    }),
+  ],
   sidebarDepth: 2,
   lastUpdated: "Last Updated",
 });

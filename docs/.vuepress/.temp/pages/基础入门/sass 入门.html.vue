@@ -1,4 +1,5 @@
-<template><div><h2 id="使用流程" tabindex="-1"><a class="header-anchor" href="#使用流程" aria-hidden="true">#</a> 使用流程</h2>
+<template><div><h1 id="sass-入门" tabindex="-1"><a class="header-anchor" href="#sass-入门" aria-hidden="true">#</a> sass 入门</h1>
+<h2 id="使用流程" tabindex="-1"><a class="header-anchor" href="#使用流程" aria-hidden="true">#</a> 使用流程</h2>
 <p><img src="@source/基础入门/assets/image-20230304135833899.png" alt="image-20230304135833899"></p>
 <h2 id="演变历史" tabindex="-1"><a class="header-anchor" href="#演变历史" aria-hidden="true">#</a> 演变历史</h2>
 <p><strong>.Sass</strong></p>

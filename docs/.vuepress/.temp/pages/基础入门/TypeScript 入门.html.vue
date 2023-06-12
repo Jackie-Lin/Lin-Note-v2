@@ -1,4 +1,5 @@
-<template><div><h2 id="_1-typescript-与-javascript-有什么区别" tabindex="-1"><a class="header-anchor" href="#_1-typescript-与-javascript-有什么区别" aria-hidden="true">#</a> 1. TypeScript 与 JavaScript 有什么区别？</h2>
+<template><div><h1 id="typescript-入门" tabindex="-1"><a class="header-anchor" href="#typescript-入门" aria-hidden="true">#</a> TypeScript 入门</h1>
+<h2 id="_1-typescript-与-javascript-有什么区别" tabindex="-1"><a class="header-anchor" href="#_1-typescript-与-javascript-有什么区别" aria-hidden="true">#</a> 1. TypeScript 与 JavaScript 有什么区别？</h2>
 <ul>
 <li>规范代码</li>
 <li>代码编译阶段就能及时发现错误, 说是编译, 其实就将 TypeScript 转换为 JavaScript</li>

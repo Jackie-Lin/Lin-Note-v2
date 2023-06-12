@@ -1,6 +1,12 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
+  // path: /vscode%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/vscode%20%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE.html
+  "v-f60641e0": () => import(/* webpackChunkName: "v-f60641e0" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/vscode使用心得/vscode 常用快捷键.html.js").then(({ data }) => data),
+  // path: /vscode%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/vscode%20%E6%8F%92%E4%BB%B6%E7%AF%87.html
+  "v-545c17dd": () => import(/* webpackChunkName: "v-545c17dd" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/vscode使用心得/vscode 插件篇.html.js").then(({ data }) => data),
+  // path: /vscode%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/vscode%20%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86.html
+  "v-54a88c10": () => import(/* webpackChunkName: "v-54a88c10" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/vscode使用心得/vscode 版本管理.html.js").then(({ data }) => data),
   // path: /%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/Nestjs%20%E5%85%A5%E9%97%A8.html
   "v-c76b836e": () => import(/* webpackChunkName: "v-c76b836e" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/基础入门/Nestjs 入门.html.js").then(({ data }) => data),
   // path: /%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/React%20%E5%85%A5%E9%97%A8.html

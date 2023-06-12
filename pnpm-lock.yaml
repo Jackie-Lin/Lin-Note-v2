@@ -13,6 +13,9 @@ devDependencies:
   '@vuepress/client':
     specifier: 2.0.0-beta.63
     version: 2.0.0-beta.63
+  '@vuepress/plugin-search':
+    specifier: 2.0.0-beta.63
+    version: 2.0.0-beta.63
   '@vuepress/utils':
     specifier: 2.0.0-alpha.1
     version: 2.0.0-alpha.1
@@ -688,6 +691,28 @@ packages:
     dependencies:
       '@vuepress/core': 2.0.0-beta.63
       prismjs: 1.29.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@vuepress/plugin-search@1.9.9:
+    resolution: {integrity: sha512-W/FE+YHoXDD4qk2wu5yRMkti271TA4y+7UBMrmCavvVAGrLIRnaZfswRUgIiDlEthBc+Pn8/As/Dy1jFTLBa9A==}
+    dependencies:
+      '@vuepress/types': registry.npmmirror.com/@vuepress/types@1.9.9
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
+  /@vuepress/plugin-search@2.0.0-beta.63:
+    resolution: {integrity: sha512-TgubdtTZ4VvZxhqq+kfv72y3CsprYocCAs3FtIOD/a4RgG/vH92xwHfEu/eL6iXvqMqrgf47PMI1tajuYwgBcA==}
+    dependencies:
+      '@vuepress/client': 2.0.0-beta.63
+      '@vuepress/core': 2.0.0-beta.63
+      '@vuepress/shared': 2.0.0-beta.63
+      '@vuepress/utils': 2.0.0-beta.63
+      chokidar: 3.5.3
+      vue: 3.3.4
+      vue-router: 4.2.2(vue@3.3.4)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3023,16 +3048,6 @@ packages:
       - debug
     dev: false
 
-  registry.npmmirror.com/@vuepress/plugin-search@1.9.9:
-    resolution: {integrity: sha512-W/FE+YHoXDD4qk2wu5yRMkti271TA4y+7UBMrmCavvVAGrLIRnaZfswRUgIiDlEthBc+Pn8/As/Dy1jFTLBa9A==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@vuepress/plugin-search/-/plugin-search-1.9.9.tgz}
-    name: '@vuepress/plugin-search'
-    version: 1.9.9
-    dependencies:
-      '@vuepress/types': registry.npmmirror.com/@vuepress/types@1.9.9
-    transitivePeerDependencies:
-      - debug
-    dev: false
-
   registry.npmmirror.com/@vuepress/shared-utils@1.9.9:
     resolution: {integrity: sha512-qhk/7QF5LgMEXhEB1hlqreGFgkz4p2pmaBBNFxnAnYmSwmyO+u/oFOpZLI16QRx9Wg6ekR2ENmByQLxV7y4lJg==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@vuepress/shared-utils/-/shared-utils-1.9.9.tgz}
     name: '@vuepress/shared-utils'
@@ -3058,7 +3073,7 @@ packages:
     dependencies:
       '@vuepress/plugin-active-header-links': registry.npmmirror.com/@vuepress/plugin-active-header-links@1.9.9
       '@vuepress/plugin-nprogress': registry.npmmirror.com/@vuepress/plugin-nprogress@1.9.9
-      '@vuepress/plugin-search': registry.npmmirror.com/@vuepress/plugin-search@1.9.9
+      '@vuepress/plugin-search': 1.9.9
       '@vuepress/types': registry.npmmirror.com/@vuepress/types@1.9.9
       docsearch.js: registry.npmmirror.com/docsearch.js@2.6.3
       lodash: registry.npmmirror.com/lodash@4.17.21
