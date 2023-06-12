@@ -19,6 +19,7 @@ export default defineUserConfig({
           { text: "sass 入门", link: "/基础入门/sass 入门.md" },
           { text: "React 入门", link: "/基础入门/React 入门.md" },
           { text: "Nestjs 入门", link: "/基础入门/Nestjs 入门.md" },
+          { text: "Vue3 进阶", link: "/基础入门/Vue3 进阶.md" },
         ],
       },
       {

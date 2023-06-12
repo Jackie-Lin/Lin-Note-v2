@@ -3,7 +3,7 @@
 <h3 id="_1-对比" tabindex="-1"><a class="header-anchor" href="#_1-对比" aria-hidden="true">#</a> 1. 对比</h3>
 <p>Vue2 是 Options API, Vue3 是 Composition API</p>
 <p>最主要的区别在于 Options API 写的是比较松散, 而 Compostion API 是比较集中的</p>
-<img src="assets/composition-api-after.e3f2c350.png" alt="folder component after" style="zoom:67%;" />
+<p><img src="@source/基础入门/assets/composition-api-after.e3f2c350.png" alt="folder component after"></p>
 <h3 id="_2-vue3-的新特性" tabindex="-1"><a class="header-anchor" href="#_2-vue3-的新特性" aria-hidden="true">#</a> 2. Vue3 的新特性</h3>
 <h4 id="综述" tabindex="-1"><a class="header-anchor" href="#综述" aria-hidden="true">#</a> 综述</h4>
 <ol>
@@ -549,7 +549,7 @@ price<span class="token punctuation">.</span>value <span class="token operator">
 <p>beforeDestroy 改为 beforeUnmounted</p>
 <p><strong>setup() 优先于 beforeCreate 执行</strong></p>
 <p><strong>选项式 API 的生命周期, 及钩子函数 (钩子函数就是在 生命周期前面 加上 <code v-pre>on</code> 而已)</strong></p>
-<img src="assets/image-20230227213040278.png" alt="image-20230227213040278" style="zoom: 58%;" />	
+<p><img src="@source/基础入门/assets/image-20230227213040278.png" alt="image-20230227213040278"></p>
 <h2 id="全局函数和全局变量" tabindex="-1"><a class="header-anchor" href="#全局函数和全局变量" aria-hidden="true">#</a> 全局函数和全局变量</h2>
 <h3 id="globalproperties" tabindex="-1"><a class="header-anchor" href="#globalproperties" aria-hidden="true">#</a> globalProperties</h3>
 <p>由于<a href="https://so.csdn.net/so/search?q=Vue3&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">Vue3<ExternalLinkIcon/></a> 没有Prototype 属性 使用 app.config.globalProperties 代替 然后去定义变量和函数</p>
@@ -1544,7 +1544,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <p>在使用 <code v-pre>createApp()</code> 初始化 Vue 应用程序后，你可以通过调用 <code v-pre>use()</code> 方法将插件添加到你的应用程序中</p>
 <p>实现一个 Loading</p>
 <h3 id="目录结构" tabindex="-1"><a class="header-anchor" href="#目录结构" aria-hidden="true">#</a> 目录结构</h3>
-<img src="assets/image-20230405011551178.png" alt="image-20230405011551178" style="zoom: 67%;" />	
+<p><img src="@source/基础入门/assets/image-20230405011551178.png" alt="image-20230405011551178"></p>
 <h3 id="对应文件内容" tabindex="-1"><a class="header-anchor" href="#对应文件内容" aria-hidden="true">#</a> 对应文件内容</h3>
 <p><strong>components/Loading/index.vue</strong></p>
 <p>编写全局 Loading 插件, 的功能和样式</p>
@@ -2145,7 +2145,7 @@ module.exports = <span class="token punctuation">{</span>
 <h3 id="layout-布局" tabindex="-1"><a class="header-anchor" href="#layout-布局" aria-hidden="true">#</a> Layout 布局</h3>
 <p>使用 BEM 架构实现 Layout 布局</p>
 <p><strong>目录结构 ( Layout 布局的结构 )</strong></p>
-<img src="assets/image-20230511224559181.png" alt="image-20230511224559181" style="zoom:67%;" />	
+<p><img src="@source/基础入门/assets/image-20230511224559181.png" alt="image-20230511224559181"></p>
 <p><strong>实现</strong></p>
 <ol>
 <li>引入 Layout 组件</li>

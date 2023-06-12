@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-7cc67926\",\"path\":\"/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/uniapp%20%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1686313341000,\"contributors\":[{\"name\":\"FOM\",\"email\":\"1351123861@qq.com\",\"commits\":1},{\"name\":\"Jack_Lin\",\"email\":\"1351123861@qq.com\",\"commits\":1}]},\"filePathRelative\":\"基础入门/uniapp 开发入门.md\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-7cc67926\",\"path\":\"/%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/uniapp%20%E5%BC%80%E5%8F%91%E5%85%A5%E9%97%A8.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1686536985000,\"contributors\":[{\"name\":\"FOM\",\"email\":\"1351123861@qq.com\",\"commits\":1},{\"name\":\"Jack_Lin\",\"email\":\"1351123861@qq.com\",\"commits\":1},{\"name\":\"linzeqin\",\"email\":\"1351123861@qq.com\",\"commits\":1}]},\"filePathRelative\":\"基础入门/uniapp 开发入门.md\"}")

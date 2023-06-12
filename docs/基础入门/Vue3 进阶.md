@@ -8,7 +8,7 @@ Vue2 是 Options API, Vue3 是 Composition API
 
 最主要的区别在于 Options API 写的是比较松散, 而 Compostion API 是比较集中的
 
-<img src="assets/composition-api-after.e3f2c350.png" alt="folder component after" style="zoom:67%;" />
+![folder component after](assets/composition-api-after.e3f2c350.png)
 
 
 
@@ -820,7 +820,7 @@ beforeDestroy 改为 beforeUnmounted
 
 **选项式 API 的生命周期, 及钩子函数 (钩子函数就是在 生命周期前面 加上 `on` 而已)**
 
-<img src="assets/image-20230227213040278.png" alt="image-20230227213040278" style="zoom: 58%;" />	
+![image-20230227213040278](assets/image-20230227213040278.png)		
 
 
 
@@ -886,20 +886,6 @@ const { proxy } = getCurrentInstance()
 console.log(proxy?.$filters.format('ts'))
 </script>
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1398,8 +1384,6 @@ const change = () => {
 使用场景
 
 当父组件有很多数据需要分发给其子组件的时候，就可以使用 provide 和 inject
-
-
 
 
 
@@ -2154,7 +2138,7 @@ export default function (options: Options): Promise<{ baseUrl: string }> {
 
 ### 目录结构
 
-<img src="assets/image-20230405011551178.png" alt="image-20230405011551178" style="zoom: 67%;" />	
+![image-20230405011551178](assets/image-20230405011551178.png)		
 
 
 
@@ -3130,7 +3114,7 @@ app 里面是没有 `scoped`，因为 app.vue 的样式是全局生效的
 
 **目录结构 ( Layout 布局的结构 )**
 
-<img src="assets/image-20230511224559181.png" alt="image-20230511224559181" style="zoom:67%;" />	
+![image-20230511224559181](assets/image-20230511224559181.png)		
 
 
 
