@@ -31,7 +31,10 @@ export default defineUserConfig({
           },
           {
             text: "进阶",
-            children: [{ text: "Vue3 进阶", link: "/基础入门/Vue3 进阶.md" }],
+            children: [
+              { text: "Vue3 进阶", link: "/基础入门/Vue3 进阶.md" },
+              { text: "Vue3 基础", link: "/Vue3/周边工具.md" },
+            ],
           },
         ],
       },
@@ -136,7 +139,21 @@ export default defineUserConfig({
               },
             ],
           },
+          {
+            text: "npm",
+            children: [
+              {
+                text: "npm 常用插件",
+                link: "/npm/管理相关的插件.md",
+              },
+            ],
+          },
         ],
+      },
+      // 开发心得
+      {
+        text: "开发心得",
+        link: "/devExp/编程基础知识.md",
       },
       // GitHub 博客地址
       {
@@ -149,6 +166,148 @@ export default defineUserConfig({
         link: "https://www.npmjs.com/package/lin-ui2",
       },
     ],
+    // 侧边栏配置
+    sidebar: {
+      // [注] 主要的一点是 这个路径配置 需要英文名，不能是中文名
+      // 配置了，侧边栏，就会显示，没有配置就走默认自动生成侧边栏
+      // 开发心得
+      "/devExp/": [
+        {
+          text: "开发心得",
+          collapsable: true,
+          children: [
+            {
+              text: "编程基础知识",
+              link: "/devExp/编程基础知识.md",
+            },
+            {
+              text: "产品相关的东西",
+              link: "/devExp/产品相关的东西.md",
+            },
+            {
+              text: "变量设置默认值",
+              link: "/devExp/变量设置默认值.md",
+            },
+            {
+              text: "关于学习",
+              link: "/devExp/关于学习.md",
+            },
+            {
+              text: "机械键盘快捷键",
+              link: "/devExp/机械键盘快捷键.md",
+            },
+            {
+              text: "架构层面",
+              link: "/devExp/架构层面.md",
+            },
+            {
+              text: "浏览器控制的操作技巧",
+              link: "/devExp/浏览器控制的操作技巧.md",
+            },
+            {
+              text: "模块化如何封装",
+              link: "/devExp/模块化如何封装.md",
+            },
+            {
+              text: "目录树生成",
+              link: "/devExp/目录树生成.md",
+            },
+            {
+              text: "请求错误处理",
+              link: "/devExp/请求错误处理.md",
+            },
+            {
+              text: "提问技巧",
+              link: "/devExp/提问技巧.md",
+            },
+            {
+              text: "为什么要去了解新技术的原理",
+              link: "/devExp/为什么要去了解新技术的原理.md",
+            },
+            {
+              text: "性能优化",
+              link: "/devExp/性能优化.md",
+            },
+            {
+              text: "支付专题",
+              link: "/devExp/支付专题.md",
+            },
+            {
+              text: "重构心得",
+              link: "/devExp/重构心得.md",
+            },
+            {
+              text: "chrome调试工具",
+              link: "/devExp/chrome调试工具.md",
+            },
+            {
+              text: "CMD 简单操作",
+              link: "/devExp/CMD 简单操作.md",
+            },
+            {
+              text: "js的巧妙写法",
+              link: "/devExp/js的巧妙写法.md",
+            },
+            {
+              text: "Typora 使用技巧",
+              link: "/devExp/Typora 使用技巧.md",
+            },
+            {
+              text: "window11去除图标小箭头",
+              link: "/devExp/window11去除图标小箭头.md",
+            },
+          ],
+        },
+      ],
+      // Vue3 基础
+      "/Vue3/": [
+        {
+          text: "Vue3 基础",
+          collapsable: true,
+          children: [
+            {
+              text: "周边工具",
+              link: "/Vue3/周边工具.md",
+            },
+            {
+              text: "Composition API",
+              link: "/Vue3/Composition API.md",
+            },
+            {
+              text: "Vue3 开发环境搭建",
+              link: "/Vue3/Vue3 开发环境搭建.md",
+            },
+            {
+              text: "Vue3 vs Vue2",
+              link: "/Vue3/Vue3 vs Vue2.md",
+            },
+          ],
+        },
+      ],
+      // npm 插件
+      "/npm/": [
+        {
+          text: "npm 常用插件",
+          collapsable: true,
+          children: [
+            {
+              text: "管理相关的插件",
+              link: "/npm/管理相关的插件.md",
+            },
+            {
+              text: "业务相关的插件",
+              link: "/npm/业务相关的插件.md",
+            },
+            {
+              text: "npm 基础知识",
+              link: "/npm/npm 基础知识.md",
+            },
+          ],
+        },
+      ],
+      // 默认配置 为每个路径都增加默认侧边栏，没有这个配置，其他没有配置的路径的侧边栏都为空
+      "/": [""],
+    },
   }),
   // 搜索框配置
   plugins: [

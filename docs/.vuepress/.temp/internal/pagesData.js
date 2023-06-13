@@ -1,12 +1,66 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
+  // path: /devExp/chrome%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7.html
+  "v-95c91aa4": () => import(/* webpackChunkName: "v-95c91aa4" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/chrome调试工具.html.js").then(({ data }) => data),
+  // path: /devExp/CMD%20%E7%AE%80%E5%8D%95%E6%93%8D%E4%BD%9C.html
+  "v-82d26c58": () => import(/* webpackChunkName: "v-82d26c58" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/CMD 简单操作.html.js").then(({ data }) => data),
+  // path: /devExp/js%E7%9A%84%E5%B7%A7%E5%A6%99%E5%86%99%E6%B3%95.html
+  "v-71073ab1": () => import(/* webpackChunkName: "v-71073ab1" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/js的巧妙写法.html.js").then(({ data }) => data),
+  // path: /devExp/Typora%20%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.html
+  "v-02cef049": () => import(/* webpackChunkName: "v-02cef049" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/Typora 使用技巧.html.js").then(({ data }) => data),
+  // path: /devExp/window11%E5%8E%BB%E9%99%A4%E5%9B%BE%E6%A0%87%E5%B0%8F%E7%AE%AD%E5%A4%B4.html
+  "v-972ff482": () => import(/* webpackChunkName: "v-972ff482" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/window11去除图标小箭头.html.js").then(({ data }) => data),
+  // path: /devExp/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%8E%BB%E4%BA%86%E8%A7%A3%E6%96%B0%E6%8A%80%E6%9C%AF%E7%9A%84%E5%8E%9F%E7%90%86.html
+  "v-9de3a2aa": () => import(/* webpackChunkName: "v-9de3a2aa" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/为什么要去了解新技术的原理.html.js").then(({ data }) => data),
+  // path: /devExp/%E4%BA%A7%E5%93%81%E7%9B%B8%E5%85%B3%E7%9A%84%E4%B8%9C%E8%A5%BF.html
+  "v-2d1f64ec": () => import(/* webpackChunkName: "v-2d1f64ec" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/产品相关的东西.html.js").then(({ data }) => data),
+  // path: /devExp/%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0.html
+  "v-c28f9fe6": () => import(/* webpackChunkName: "v-c28f9fe6" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/关于学习.html.js").then(({ data }) => data),
+  // path: /devExp/%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%80%BC.html
+  "v-669b7a5c": () => import(/* webpackChunkName: "v-669b7a5c" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/变量设置默认值.html.js").then(({ data }) => data),
+  // path: /devExp/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.html
+  "v-5e2d3f6a": () => import(/* webpackChunkName: "v-5e2d3f6a" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/性能优化.html.js").then(({ data }) => data),
+  // path: /devExp/%E6%8F%90%E9%97%AE%E6%8A%80%E5%B7%A7.html
+  "v-4adf8b0c": () => import(/* webpackChunkName: "v-4adf8b0c" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/提问技巧.html.js").then(({ data }) => data),
+  // path: /devExp/%E6%94%AF%E4%BB%98%E4%B8%93%E9%A2%98.html
+  "v-0d505f89": () => import(/* webpackChunkName: "v-0d505f89" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/支付专题.html.js").then(({ data }) => data),
+  // path: /devExp/%E6%9C%BA%E6%A2%B0%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E9%94%AE.html
+  "v-0e2dbeb6": () => import(/* webpackChunkName: "v-0e2dbeb6" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/机械键盘快捷键.html.js").then(({ data }) => data),
+  // path: /devExp/%E6%9E%B6%E6%9E%84%E5%B1%82%E9%9D%A2.html
+  "v-80e92af8": () => import(/* webpackChunkName: "v-80e92af8" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/架构层面.html.js").then(({ data }) => data),
+  // path: /devExp/%E6%A8%A1%E5%9D%97%E5%8C%96%E5%A6%82%E4%BD%95%E5%B0%81%E8%A3%85.html
+  "v-c47e577c": () => import(/* webpackChunkName: "v-c47e577c" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/模块化如何封装.html.js").then(({ data }) => data),
+  // path: /devExp/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8E%A7%E5%88%B6%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7.html
+  "v-1b7dd8e0": () => import(/* webpackChunkName: "v-1b7dd8e0" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/浏览器控制的操作技巧.html.js").then(({ data }) => data),
+  // path: /devExp/%E7%9B%AE%E5%BD%95%E6%A0%91%E7%94%9F%E6%88%90.html
+  "v-afa9bbfe": () => import(/* webpackChunkName: "v-afa9bbfe" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/目录树生成.html.js").then(({ data }) => data),
+  // path: /devExp/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html
+  "v-1ac02989": () => import(/* webpackChunkName: "v-1ac02989" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/编程基础知识.html.js").then(({ data }) => data),
+  // path: /devExp/%E8%AF%B7%E6%B1%82%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86.html
+  "v-695cba90": () => import(/* webpackChunkName: "v-695cba90" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/请求错误处理.html.js").then(({ data }) => data),
+  // path: /devExp/%E9%87%8D%E6%9E%84%E5%BF%83%E5%BE%97.html
+  "v-113c31e7": () => import(/* webpackChunkName: "v-113c31e7" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/devExp/重构心得.html.js").then(({ data }) => data),
+  // path: /npm/npm%20%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html
+  "v-65669e59": () => import(/* webpackChunkName: "v-65669e59" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/npm/npm 基础知识.html.js").then(({ data }) => data),
+  // path: /npm/%E4%B8%9A%E5%8A%A1%E7%9B%B8%E5%85%B3%E7%9A%84%E6%8F%92%E4%BB%B6.html
+  "v-ad7d22c2": () => import(/* webpackChunkName: "v-ad7d22c2" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/npm/业务相关的插件.html.js").then(({ data }) => data),
+  // path: /npm/%E7%AE%A1%E7%90%86%E7%9B%B8%E5%85%B3%E7%9A%84%E6%8F%92%E4%BB%B6.html
+  "v-ae27a2b8": () => import(/* webpackChunkName: "v-ae27a2b8" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/npm/管理相关的插件.html.js").then(({ data }) => data),
   // path: /vscode%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/vscode%20%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE.html
   "v-f60641e0": () => import(/* webpackChunkName: "v-f60641e0" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/vscode使用心得/vscode 常用快捷键.html.js").then(({ data }) => data),
   // path: /vscode%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/vscode%20%E6%8F%92%E4%BB%B6%E7%AF%87.html
   "v-545c17dd": () => import(/* webpackChunkName: "v-545c17dd" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/vscode使用心得/vscode 插件篇.html.js").then(({ data }) => data),
   // path: /vscode%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/vscode%20%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86.html
   "v-54a88c10": () => import(/* webpackChunkName: "v-54a88c10" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/vscode使用心得/vscode 版本管理.html.js").then(({ data }) => data),
+  // path: /Vue3/Composition%20API.html
+  "v-e987d8be": () => import(/* webpackChunkName: "v-e987d8be" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/Vue3/Composition API.html.js").then(({ data }) => data),
+  // path: /Vue3/Vue3%20vs%20Vue2.html
+  "v-40470af4": () => import(/* webpackChunkName: "v-40470af4" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/Vue3/Vue3 vs Vue2.html.js").then(({ data }) => data),
+  // path: /Vue3/Vue3%20%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html
+  "v-7e2ca537": () => import(/* webpackChunkName: "v-7e2ca537" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/Vue3/Vue3 开发环境搭建.html.js").then(({ data }) => data),
+  // path: /Vue3/%E5%91%A8%E8%BE%B9%E5%B7%A5%E5%85%B7.html
+  "v-6905927f": () => import(/* webpackChunkName: "v-6905927f" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/Vue3/周边工具.html.js").then(({ data }) => data),
   // path: /%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/Nestjs%20%E5%85%A5%E9%97%A8.html
   "v-c76b836e": () => import(/* webpackChunkName: "v-c76b836e" */"E:/test/Lin-Note-v2/docs/.vuepress/.temp/pages/基础入门/Nestjs 入门.html.js").then(({ data }) => data),
   // path: /%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/React%20%E5%85%A5%E9%97%A8.html
